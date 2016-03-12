@@ -12,6 +12,8 @@
 		11673CA01C94646800652E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11673C9E1C94646800652E3B /* Main.storyboard */; };
 		11673CA21C94646800652E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11673CA11C94646800652E3B /* Assets.xcassets */; };
 		11673CA51C94646800652E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11673CA31C94646800652E3B /* LaunchScreen.storyboard */; };
+		11673CAD1C94661C00652E3B /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11673CAC1C94661C00652E3B /* GreenVC.swift */; };
+		11673CAF1C94671700652E3B /* OrangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11673CAE1C94671700652E3B /* OrangeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		11673CA11C94646800652E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11673CA41C94646800652E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11673CA61C94646800652E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11673CAC1C94661C00652E3B /* GreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		11673CAE1C94671700652E3B /* OrangeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				11673CA11C94646800652E3B /* Assets.xcassets */,
 				11673CA31C94646800652E3B /* LaunchScreen.storyboard */,
 				11673CA61C94646800652E3B /* Info.plist */,
+				11673CAC1C94661C00652E3B /* GreenVC.swift */,
+				11673CAE1C94671700652E3B /* OrangeVC.swift */,
 			);
 			path = "nav-controller";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11673CAD1C94661C00652E3B /* GreenVC.swift in Sources */,
 				11673C9D1C94646800652E3B /* ViewController.swift in Sources */,
+				11673CAF1C94671700652E3B /* OrangeVC.swift in Sources */,
 				11673C9B1C94646800652E3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
